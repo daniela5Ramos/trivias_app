@@ -1,0 +1,23 @@
+/* Archivo CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200..700&display=swap');
+
+
+.top-row {
+    background-color: #ffffff; /* Fondo especial para el primer lugar */
+    font-weight: bold;
+  }
+  
+  /* Clase principal para la página de Top Global */
+.top-global-page {
+  background-color: #eadcf5; /* Fondo lila */
+  min-height: 100vh; /* Asegura que cubra toda la altura */
+  padding: 20px;
+}
+
+
+.titulo {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Koulen', sans-serif;
+}

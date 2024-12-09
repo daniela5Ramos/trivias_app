@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200..700&display=swap');
+
+/* Estilo del contenedor del header */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.m{
+    top:10px;
+}
+
+/* Estilo del logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Koulen', sans-serif;
+}
+
+/* Estilo del menú */
+.menu-items {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    font-family: 'Koulen', sans-serif;
+    height: 64px;
+    top:10px;
+    margin-top: 10px;
+}
+
+/* Estilo de los ítems del menú */
+.menu-items .ant-menu-item {
+    color: black;
+    margin-right: 20px;
+}
+
+.menu-items .ant-menu-item:hover {
+    color: #1890ff;
+}
+
+/* Espaciado para compensar el header fijo */
+.content {
+    padding-top: 64px;
+}
+
+/* Estilo del logo para mantener proporciones */
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Estilo para vistas móviles */
+@media screen and (max-width: 768px) {
+    .menu-items {
+        flex-direction: column;
+        height: auto;
+    }
+}

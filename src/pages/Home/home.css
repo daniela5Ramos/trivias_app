@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:wght@100..900&family=Ranchers&display=swap');
+
+.inicio {
+    margin-top: 60px; /* Ajusta este valor según la altura de tu barra de navegación */
+    padding: 20px; /* Opcional, para añadir espacio interior */
+}
+
+.image-content img {
+    width: 60%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 300px; /* Tamaño máximo para mantener una escala adecuada */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+
+/* Fondo de la pantalla */
+.home-container {
+    background-color: #eadcf5; /* Amarillo pastel */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; /* Ajusta la altura a toda la pantalla */
+    box-sizing: border-box;
+}
+
+/* Contenedor de texto */
+.text-content {
+    flex: 1; /* Ocupa un lado del contenedor */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.title-text {
+    font-family: 'Ranchers', sans-serif; /* Aplica la fuente League Spartan */
+    font-weight: 700; /* Ajusta el peso según tus necesidades */
+    color: #000000; /* Ajusta el color según tus preferencias */
+    font-size: 2.5rem; /* Tamaño de fuente */
+    line-height: 1.4; /* Altura de línea para mejorar la legibilidad */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+
+/* Contenedor de la imagen */
+.image-content {
+    flex: 1; /* Ocupa el otro lado del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 100%; /* Escala la imagen responsivamente */
+    height: auto;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column; /* Cambia a diseño en columna */
+        text-align: center;
+    }
+
+    .text-content,
+    .image-content {
+        flex: none; /* Ambos toman tamaño según su contenido */
+        width: 100%; /* Ocupan todo el ancho */
+    }
+}
+.description-text {
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+    font-weight: 400; /* Peso normal para lectura */
+    color: #303030; /* Ajusta el color según tus preferencias */
+    font-size: 0.8rem; /* Tamaño de fuente para el párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: justify; /* Justifica el texto para mejor lectura */
+}
+

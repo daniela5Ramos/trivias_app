@@ -1,0 +1,9 @@
+.preguntas-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.preguntas-content {
+    margin-top: 64px; /* Ajusta este valor según la altura del Navbar */
+    padding: 20px; /* Espaciado adicional opcional */
+}

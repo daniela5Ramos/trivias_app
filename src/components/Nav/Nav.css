@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200..700&display=swap" rel="stylesheet');
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: white; /* Fondo blanco */
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+    position: fixed; /* Se mantiene en la parte superior */
+    top: 0; /* Anclado a la parte superior */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para darle efecto de elevación */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Koulen', sans-serif; /* Fuente Koulen */
+}
+
+.menu-items {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Alinear menú a la derecha */
+    background-color: white; /* Fondo blanco del menú */
+    font-family: 'Koulen', sans-serif; /* Fuente Koulen */
+    height: 64px; /* Altura estándar del header */
+    margin-top: 10px;
+}
+
+.menu-items .ant-menu-item {
+    color: black; /* Color del texto */
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-items .ant-menu-item:hover {
+    color: #1890ff; /* Cambia color al pasar el ratón */
+}
+
+/* Asegurarse de que el contenido comience después del header */
+.content {
+    padding-top: 64px; /* Añadir espacio para compensar el header fijo */
+}
+.logo {
+    height: 40px; /* Ajusta la altura del logo */
+    width: auto; /* Mantiene las proporciones del logo */
+}
+
+
+@media screen {
+
+   
+    /* CUANDO SE TENGA VISTA DE MEDIA, QUE APAREZCA UN ICONO HAMBURGUESA Y SE DESPLIEGUE LAS OPCIONES */
+    
+}
